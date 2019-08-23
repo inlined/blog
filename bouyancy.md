@@ -25,19 +25,19 @@ styles of diving. It doesn't cover changes introduced by dry suits, which
 add another air-space; or rebreathers, which introduce a counter-lung.
 If this article inspires you, consider taking the
 [Peak Performance Bouyancy](3) specialty class as an opportunity to hone
-your skills. Bouyancy control is also often one of the five dives included
-in Advanced Open Water; ask your instructor if (s)he can include this in
-your training.
+your skills. Bouyancy control can also be one of the five dives included
+in your [Advanced Open Water](2) class; ask your instructor if (s)he can
+include this in your training.
 
 ## 1. Remember your BCD isn't an elevator
 
 Many new divers find the BCD counter-intuitive, especially because its use at
 the surface and underwater are reversed. On the surface, you inflate to stay
-up and you deflate to go down. Underwater, you _deflate_ as you go up and
-_inflate_  as you go down. This is the opposite of what many expect until
+up and you deflate to go down. Underwater, you deflate _as_ you go up and
+inflate _as_ you go down. This is the opposite of what many expect until
 they remember that bouyancy changes have a synergistic effect. As we rise,
 we are under less pressure. This expands the air in our exposure suits and BCDs
-which makes us negatively bouyant and causes us to rise even faster. To 
+which makes us positively bouyant and causes us to rise even faster. To 
 avoid a runaway ascent, we should let out small bursts of air from our BCD, not
 _to_ rise, but _because_ we are rising. Likewise, we avoid emergency descents
 by inflating our BCD, which has begun to crush under higher pressure.
@@ -51,21 +51,22 @@ it will be even harder to find the right level of inflation.
 If your BCD isn't an elevator, what is? Primarily, it's our lungs. Lungs are
 great because we're so used to using them. We'll never forget which way to
 inflate or deflate our lungs like many new or rusty divers forget on their
-BCDs. If you want to go deeper, just breathe out more than a normal breath and
-slowly "sip" the fresh air back in. If you want to go shallower, breath in more
-than a normal breath and slowly exhale. You can even use this trick to help
-find the right depth for your BCD rather than adjusting your BCD for your
-depth. If your BCD makes you _slightly_ positively bouyant, simply exhale to
-go down. The increased water pressure will compress your BCD and make you
-neutrally bouyant.
+BCD's inflator hose. If you want to go deeper, just breathe out more than a
+normal breath and slowly "sip" the fresh air back in. If you want to go
+shallower, breath in more than a normal breath and slowly exhale. You can even
+use this trick to help find the right depth for your BCD rather than adjusting
+your BCD for your depth. If your BCD makes you _slightly_ positively bouyant,
+exhale deeply to decrease your bouyancy. If you decrease it enough to sink, the
+increased water pressure will compress your BCD and make you neutrally bouyant
+when you resume normal breathing.
 
 Two rules worth repeating
 
-- _Never hold your breath while scuba diving_. This
-can lead to lung overexpansion from holding a full breath while rising or a
-collapsed lung from holding an empty breath.
-- _Be careful of shallow breathing_. Only the air that reaches our lungs (or
-more accurately, the avioli) replenishes our blood with Oxygen. The throat and
+- _Never hold your breath while scuba diving_. Holding a full breath during
+ascents can lead to lung overexpansion, while holding an empty breath during
+descents can lead to a collapsed lung.
+- _Avoid shallow breathing_. Only the air that reaches our lungs (or
+more accurately, the avioli) replenishes our blood with oxygen. The throat and
 broncial cavity are "dead airspace." If we don't breath more volume than the
 dead airspace, we're literally wasting our breath. If you find you're getting
 headaches after diving (and trust the air quality of your dive shop), you may
@@ -74,11 +75,12 @@ be breathing too shallowly and suffering from carbon dioxide buildup.
 ## 3. Try to be stationary without kicking
 I've seen divers with 2-3x my experience make this basic mistake. It's easier
 to stay streamlined and feel neutrally bouyant while you're moving because
-you're actually steering with your body. When you're stationary however, you
-mind find that you're positioned vertically and _kicking_ to avoid sinking.
-This is extremely wasteful on air and can be fixed by simply adding air to
-your BCD. When neutrally bouyant, you should be able to remain horizontal
-and still; save kicks for moving or fighting a current.
+you're actually steering vertically. When you're stationary however, you
+mind find yourself oriented vertically and _kicking_ to avoid sinking.
+This exertion wastes a lot of air; fix it by inflating your BCD until you
+no longer need to kick. When properly bouyant, you can choose to stay
+horizontally oriented and still. Save your kicks for moving or fighting a
+current.
 
 ## 4. Dial-in the correct weight for your dives
 Your trim can give you an intuition whether you're properly weighted. Divers
@@ -117,25 +119,25 @@ consider [ankle weights](8). Record ankle weights separately in your log book
 since many don't find these affect the amount of weight needed for bouyancy.
 
 ## 5. Keep practicing
-Practice makes perfect. Use downtime to improve your bouyancy skills. Your
-local dive shop may let you hang out in the pool while they're teaching
-classes as long as you're not away. You can use this time to practice fin
-pivots and hovering. Remember: whenever you buy new gear you should
-practice with it in confined water before a dive. This is a great
-opportunity and you should try those basic bouyancy skills whenever you
-buy a new BCD, wetsuit, or drysuit, as they'll affect your bouyancy most.
+Use downtime to improve your bouyancy skills. Your
+local dive shop may let you use the pool where they teach classes as
+long as you're not away. You can use this time to practice fin
+pivots and hovering. Since you should always practice using new gear in
+confined water before you dive, these make especially good practices
+when you buy  a new BCD, wetsuit, or drysuit, as they affect your bouyancy
+the most.
 
 You can also practice bouyancy during safety stops. You may notice that
 the most experienced divers can hover during their safety stops without
 holding a rope. If you want to practice this skill, I recommend staying
-close enough to the rope to grab it if you have an uncontrolled ascent or
+close enough to the rope to grab it during an uncontrolled ascent or
 descent. Hover with your arms outstreatched so you can continuously watch
 your SPG or dive computer. Pros can sense small changes in their depth
-through inner ear pressure; as a beginner you won't have this sixth sense.
+through inner ear pressure; as a beginner you won't have this sixth sense yet.
 
 ## 6. Forgive yourself for struggling
 Shallower water changes proportional density faster. A shift from 16ft (5m)
-to 33ft (10m) is a change from 1.5atm to 2atm of pressure–a 33% increase!
+to 33ft (10m) is a change from 1.5atm to 2atm of pressure–a 33% increase.
 Meanwhile, a shift from 66ft (20m) to 82ft (25m) is a change from 3atm to
 3.5atm–a 16% increase. That's half the proportional density change with
 the same change in depth!
