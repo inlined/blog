@@ -1,0 +1,2 @@
+# blog
+Scuba diving blog
