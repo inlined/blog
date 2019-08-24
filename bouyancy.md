@@ -1,31 +1,31 @@
-# Six ways beginners can improve bouyancy
+# Six ways beginners can improve buoyancy
 
 Learning to drive a car overwhelmed me so much I wasn't sure I wanted to
 learn to drive. For many new divers, especially [Open Water](1) students,
-bouyancy control is equally overwhelming. Eventually, like driving, bouyancy
+buoyancy control is equally overwhelming. Eventually, like driving, buoyancy
 control becomes automatic. Still, it's possible to feel like we've
 reached a comfortable level of control while still making basic mistakes
 that keep us from reaching the next level of enjoyment in our dives.
 
-Proper bouyancy control can dramatically increase your dive time. Dumping less
-out of your BCD saves more air for you to breathe. Poor bouyancy control can
+Proper buoyancy control can dramatically increase your dive time. Dumping less
+out of your BCD saves more air for you to breathe. Poor buoyancy control can
 also lead to overexertion, causing you to consume much more air per minute.
-Good bouyancy control is a major reason why scuba instructions can often
+Good buoyancy control is a major reason why scuba instructions can often
 complete an entire [Open Water](1) or [Advanced Open Water](2) course on a
 single tank of air.
 
-We should also improve our bouyancy because it just makes diving more fun!
-We're improve our trim, which reduces our drag and lets us get places quicker
+We should also improve our buoyancy because it just makes diving more fun!
+We improve our trim, which reduces our drag and lets us get places quicker
 and more subtly. This gives us more time to enjoy the dive, helps us dive in
-stronger currents, and lets us get within touching distance of wild life (not
+stronger currents, and lets us get within touching distance of wildlife (not
 that you should _actually_ be touching it).
 
-This guide covers the bouyancy techniques appropriate for the most common
+This guide covers the buoyancy techniques appropriate for the most common
 styles of diving. It doesn't cover changes introduced by dry suits, which
 add another air-space; or rebreathers, which introduce a counter-lung.
 If this article inspires you, consider taking the
-[Peak Performance Bouyancy](3) specialty class as an opportunity to hone
-your skills. Bouyancy control can also be one of the five dives included
+[Peak Performance Buoyancy](3) specialty class as an opportunity to hone
+your skills. Buoyancy control can also be one of the five dives included
 in your [Advanced Open Water](2) class; ask your instructor if (s)he can
 include this in your training.
 
@@ -35,9 +35,9 @@ Many new divers find the BCD counter-intuitive, especially because its use at
 the surface and underwater are reversed. On the surface, you inflate to stay
 up and you deflate to go down. Underwater, you deflate _as_ you go up and
 inflate _as_ you go down. This is the opposite of what many expect until
-they remember that bouyancy changes have a synergistic effect. As we rise,
+they remember that buoyancy changes have a synergistic effect. As we rise,
 we are under less pressure. This expands the air in our exposure suits and BCDs
-which makes us positively bouyant and causes us to rise even faster. To 
+which makes us positively buoyant and causes us to rise even faster. To 
 avoid a runaway ascent, we should let out small bursts of air from our BCD, not
 _to_ rise, but _because_ we are rising. Likewise, we avoid emergency descents
 by inflating our BCD, which has begun to crush under higher pressure.
@@ -55,7 +55,7 @@ BCD's inflator hose. If you want to go deeper, just breathe out more than a
 normal breath and slowly "sip" the fresh air back in. If you want to go
 shallower, breath in more than a normal breath and slowly exhale. You can even
 use this trick to help find the right depth for your BCD rather than adjusting
-your BCD for your depth. If your BCD makes you _slightly_ positively bouyant,
+your BCD for your depth. If your BCD makes you _slightly_ positively buoyant,
 exhale deeply to decrease your bouyancy. If you decrease it enough to sink, the
 increased water pressure will compress your BCD and make you neutrally bouyant
 when you resume normal breathing.
@@ -76,7 +76,7 @@ be breathing too shallowly and suffering from carbon dioxide buildup.
 I've seen divers with 2-3x my experience make this basic mistake. It's easier
 to stay streamlined and feel neutrally bouyant while you're moving because
 you're actually steering vertically. When you're stationary however, you
-mind find yourself oriented vertically and _kicking_ to avoid sinking.
+might find yourself oriented vertically and _kicking_ to avoid sinking.
 This exertion wastes a lot of air; fix it by inflating your BCD until you
 no longer need to kick. When properly bouyant, you can choose to stay
 horizontally oriented and still. Save your kicks for moving or fighting a
@@ -94,7 +94,7 @@ weight check, hold a _normal_ breath at the surface of the water and let out
 all the air from your BCD. Repeat this process, adding or removing weight,
 until you hover in the water at about eye level. Remember that you're not
 done yet! That air in your tank has noticeable weight and you will become
-positively bouyant as it depletes. To avoid kicking downwards at the end
+positively buoyant as it depletes. To avoid kicking downwards at the end
 of your dive, add 5lbs or 2-3Kg to reach your final weight.
 
 You can make this process much faster as you gain experience. Always record
@@ -116,18 +116,18 @@ push you forwards at the surface, so many allow you to add [soft weights](6)
 or you can add [weight pockets](7) to your tank strap. Finally, if you suffer
 from what I call "scorpion legs" (legs that curl up while you're diving),
 consider [ankle weights](8). Record ankle weights separately in your log book
-since many don't find these affect the amount of weight needed for bouyancy.
+since many don't find these affect the amount of weight needed for buoyancy.
 
 ## 5. Keep practicing
-Use downtime to improve your bouyancy skills. Your
+Use downtime to improve your buoyancy skills. Your
 local dive shop may let you use the pool where they teach classes as
 long as you're not away. You can use this time to practice fin
 pivots and hovering. Since you should always practice using new gear in
 confined water before you dive, these make especially good practices
-when you buy  a new BCD, wetsuit, or drysuit, as they affect your bouyancy
+when you buy a new BCD, wetsuit, or drysuit, as they affect your buoyancy
 the most.
 
-You can also practice bouyancy during safety stops. You may notice that
+You can also practice buoyancy during safety stops. You may notice that
 the most experienced divers can hover during their safety stops without
 holding a rope. If you want to practice this skill, I recommend staying
 close enough to the rope to grab it during an uncontrolled ascent or
