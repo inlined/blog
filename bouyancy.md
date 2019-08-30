@@ -63,8 +63,7 @@ when you resume normal breathing.
 Two rules worth repeating
 
 - _Never hold your breath while scuba diving_. Holding a full breath during
-ascents can lead to lung overexpansion, while holding an empty breath during
-descents can lead to a collapsed lung.
+ascents can lead to lung overexpansion, which can be fatal.
 - _Avoid shallow breathing_. Only the air that reaches our lungs (or
 more accurately, the avioli) replenishes our blood with oxygen. The throat and
 broncial cavity are "dead airspace." If we don't breath more volume than the
