@@ -16,7 +16,7 @@ course on a single tank of air, while their students need a tank per dive.
 We should also improve our buoyancy because it just makes diving more fun!
 We improve our trim, which reduces our drag and lets us get places quicker
 and more subtly. This gives us more time to enjoy the dive, helps us dive in
-stronger currents, and lets us get within touching distance of wild life (not
+stronger currents, and lets us get within touching distance of wildlife (not
 that you should _actually_ be touching it).
 
 This guide covers the buoyancy techniques appropriate for the most common
@@ -65,8 +65,7 @@ when you resume normal breathing.
 Two rules worth repeating:
 
 - _Never hold your breath while scuba diving_. Holding a full breath during
-ascents can lead to lung overexpansion, while holding an empty breath during
-descents can lead to a collapsed lung.
+ascents can lead to lung overexpansion, which can be fatal.
 - _Avoid shallow breathing_. Only the air that reaches our lungs (or
 more accurately, the avioli) replenishes our blood with oxygen. The throat and
 broncial cavity are "dead airspace." If we don't breath more volume than the
@@ -78,7 +77,7 @@ be breathing too shallowly and suffering from carbon dioxide buildup.
 I've seen divers with 2-3x my experience make this basic mistake. It's easier
 to stay streamlined and feel neutrally buoyant while you're moving because
 you're actually steering vertically. When you're stationary however, you
-mind find yourself oriented vertically and _kicking_ to avoid sinking.
+might find yourself oriented vertically and _kicking_ to avoid sinking.
 This exertion wastes a lot of air; fix it by inflating your BCD until you
 no longer need to kick. When properly buoyant, you can choose to stay
 horizontally oriented and still. Save your kicks for moving or fighting a
@@ -102,7 +101,7 @@ local dive shop may let you use the pool where they teach classes as
 long as you're not away. You can use this time to practice fin
 pivots and hovering. Since you should always practice using new gear in
 confined water before you dive, these make especially good practices
-when you buy  a new BCD, wetsuit, or drysuit, as they affect your buoyancy
+when you buy a new BCD, wetsuit, or drysuit, as they affect your buoyancy
 the most.
 
 You can also practice buoyancy during safety stops. You may notice that
