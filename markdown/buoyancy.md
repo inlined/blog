@@ -22,7 +22,8 @@ that you should _actually_ be touching it).
 This guide covers the buoyancy techniques appropriate for the most common
 styles of diving. If this article inspires you, consider taking the
 [Peak Performance Buoyancy](3) specialty class as an opportunity to hone
-your skills. Buoyancy control can also be one of the five dives included
+your skills (If you live in the California Bay Area, I can teach you this
+class personally). Buoyancy control can also be one of the five dives included
 in your [Advanced Open Water](2) class; ask your instructor if (s)he can
 include this in your training.
 
