@@ -56,11 +56,13 @@ battles wisely to keep feedback within a mentee's maximum cognitive load.
 I tell my stellar students that I give feedback for two kinds of people:
 those who need it and those who can handle it.
 
+Sometimes you can be extremely precise with your feedback,
+but it seems the mentee will do whatever they want anyway.
 If a mentee is having difficulties, focus on the minimum performance
 requirements. The little things will overload the mentee and detract from the
 critical knowledge and skills. On the other hand, when a mentee is excelling,
 they have an opportunity to get bored. In scuba, they may cause students to
-lose focus or distract the class with their board actions. Give these
+lose focus or distract the class with their bored actions. Give these
 high-performers more to work on to increase their cognitive load.
 You can give them more nuanced feedback or introduce new skills. Keep this
 feedback short and measured; it should keep them from being bored during
@@ -68,7 +70,7 @@ a class rather than distracting them through it.
 
 ## 5. Empathize and develop a routine
 
-As your skills improve, you'll forget what it was like to earn those skills.
+As your skills improve, you'll forget what it was like to learn those skills.
 Try hard to remember growing. Where you have a series of mentees who will
 repeatedly learn the same skills, gain a sense of pace for learning those
 skills. Use this information to create an aggressive but reasonable pace for
