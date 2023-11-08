@@ -12,6 +12,9 @@ take there.
 
 ## Bay Area, California
 
+<!-- Consider some tweaks to prose to be clear I have a relationship with
+     them, that they started as my home shop for good reasons and that's now 
+     why I will have a business relationship with them -->
 I personally affiliate with [Harbor Dive](1). They take their practice
 more seriously than any other shop I've worked with. Their customers love
 them for their wealth
