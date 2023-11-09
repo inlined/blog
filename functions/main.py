@@ -6,7 +6,7 @@ from firebase_functions import storage_fn
 from firebase_admin import initialize_app
 from io import BytesIO
 from math import atan2, degrees
-from numpy import np
+from numpy import mean
 from PIL import Image
 
 initialize_app()
@@ -30,8 +30,8 @@ def align_image(bytes: BytesIO) -> BytesIO:
     face_landmarks_list = face_recognition.face_landmarks(image)
 
     # Ensure there is exactly one face in the image
-    if len(face_landmarks_list) != 1:
-        raise ValueError("The image does not have exactly one face.")
+    if len(face_landmarks_list) == 0:
+        raise ValueError("Could not find a face to align")
 
     face_landmarks = face_landmarks_list[0]
 
@@ -40,22 +40,20 @@ def align_image(bytes: BytesIO) -> BytesIO:
     right_eye = face_landmarks["right_eye"]
 
     # Calculate the angle between the eyes
-    left_eye_center = np.mean(left_eye, axis=0)
-    right_eye_center = np.mean(right_eye, axis=0)
+    left_eye_center = mean(left_eye, axis=0)
+    right_eye_center = mean(right_eye, axis=0)
     delta_x = right_eye_center[0] - left_eye_center[0]
     delta_y = right_eye_center[1] - left_eye_center[1]
     angle = atan2(delta_y, delta_x)
 
     # Rotate the original image
     pil_image = Image.open(bytes)
-    rotated_image = pil_image.rotate(degrees(-angle))
+    rotated_image = pil_image.rotate(degrees(angle))
 
     # Convert the rotated image back to bytes
     image_byte_array = BytesIO()
-    rotated_image.save(image_byte_array, format="JPEG")
-    rotated_image_bytes = image_byte_array.getvalue()
-
-    return rotated_image_bytes
+    rotated_image.save(image_byte_array, format="JPEG", quality=100)
+    return image_byte_array
 
 
 # Assuming image is the path to an image file
@@ -66,14 +64,19 @@ def crop_image(bytes: BytesIO) -> BytesIO:
     # Find all face locations in the image
     face_locations = face_recognition.face_locations(image)
 
-    if len(face_locations) != 1:
-        raise ValueError("Expected exactly one face")
+    if len(face_locations) == 0:
+        raise ValueError("Could not find a face to crop")
 
     face_top, face_right, face_bottom, face_left = face_locations[0]
 
     face_height = face_bottom - face_top
-    height = face_height / 0.75
-    top = max(face_top - height * 0.06, 0)
+    face_center = (face_top + face_bottom) / 2
+    # multiplying by a heuristic numbers because face_recognition
+    # does not recognize whole heads.
+    head_height = 1.5 * face_height
+    head_top = max(face_center - head_height * 0.75, 0)
+    height = head_height / 0.75
+    top = max(head_top - height * 0.06, 0)
     bottom = top + height
 
     face_center = (face_right + face_left) / 2
@@ -88,54 +91,63 @@ def crop_image(bytes: BytesIO) -> BytesIO:
     cropped_image = pil_image.crop((left, top, right, bottom))
 
     image_byte_array = BytesIO()
-    cropped_image.save(image_byte_array, format="JPEG")
-    return image_byte_array.getvalue()
+    cropped_image.save(image_byte_array, format="JPEG", quality=100)
+    return image_byte_array
 
 
 def resize_image(bytes: BytesIO) -> BytesIO:
     MAX_SIZE_KB = 350
     STEP_PERCENT = 5
 
-    image = Image.open(bytes)
-    scale_factor = 1
-    resized_image = image
+    quality = 100
     resized_bytes = bytes
+    image = Image.open(bytes)
+
     while len(resized_bytes.getvalue()) > MAX_SIZE_KB * 1024:
-        scale_factor *= (100 - STEP_PERCENT) / 100
-        new_width = int(bytes.size[0] * scale_factor)
-        new_height = int(bytes.size[1] * scale_factor)
-
-        resized_image = image.resize((new_width, new_height), Image.ANTIALIAS)
-
+        quality -= STEP_PERCENT
         resized_bytes = BytesIO()
-        resized_image.save(resized_bytes, format="JPEG")
+        image.save(resized_bytes, format="JPEG", quality=quality)
 
     return resized_bytes
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python main.py <path to image>")
+        print("Usage: python main.py <directory>")
         sys.exit(1)
 
-    directory, file_name = os.path.split(sys.argv[1])
-    basename, extension = os.path.splitext(file_name)
+    with os.scandir(sys.argv[1]) as it:
+        for entry in it:
+            if not entry.is_file():
+                continue
 
-    with open(sys.argv[1], "rb") as input_file:
-        original_bytes = input_file.read()
-    bytes = BytesIO(original_bytes)
+            basename, extension = os.path.splitext(entry.name)
 
-    bytes = align_image(bytes)
-    aligned_path = os.path.join(directory, f"{basename}_aligned.jpg")
-    with open(aligned_path, "wb") as aligned_file:
-        aligned_file.write(bytes.getvalue())
+            if extension != ".jpg" and extension != ".jpeg":
+                print(f"Skipping {basename}{extension}")
+                continue
 
-    bytes = crop_image(bytes)
-    cropped_path = os.path.join(directory, f"{basename}_cropped.jpg")
-    with open(cropped_path, "wb") as cropped_file:
-        cropped_file.write(bytes.getvalue())
+            print(f"Processing {entry.name}")
 
-    bytes = resize_image(bytes)
-    resized_path = os.path.join(directory, f"{basename}_resized.jpg")
-    with open(resized_path, "wb") as resized_file:
-        resized_file.write(bytes.getvalue())
+            try:
+                print("  Loading original file")
+                with open(entry, "rb") as input_file:
+                    original_bytes = input_file.read()
+                bytes = BytesIO(original_bytes)
+
+                print("  Aligning face")
+                bytes = align_image(bytes)
+
+                print("  Cropping face")
+                bytes = crop_image(bytes)
+
+                print("Downsizing")
+                bytes = resize_image(bytes)
+
+                print("Saving")
+                resized_path = os.path.join(sys.argv[1], f"{basename}_thumb.jpg")
+                with open(resized_path, "wb") as resized_file:
+                    resized_file.write(bytes.getvalue())
+
+            except Exception as err:
+                print(f"Failed with error {err}")
