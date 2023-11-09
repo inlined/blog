@@ -1,0 +1,4 @@
+firebase_functions~=0.1.0
+Pillow
+face_recognition
+numpy
